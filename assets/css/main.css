@@ -3398,7 +3398,7 @@ input, select, textarea {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    object-fit: cover; Assicura che il video copra l'intero contenitore
+    object-fit: cover;
 }
 
 	#banner {
