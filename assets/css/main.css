@@ -2351,7 +2351,7 @@ input, select, textarea {
 	ul.icons {
 		cursor: default;
 		list-style: none;
-		padding-left: 0;
+		margin-left: auto;
 	}
 
 		ul.icons li {
@@ -2837,34 +2837,33 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(6n - 5):before {
-				background-color: #EA560D;
+				background-color: #ea570dba;
 			}
 
 			.tiles article:nth-child(6n - 4):before {
-				background-color: #00ABA8;
+				background-color: #00aba8d4;
 			}
 
 			.tiles article:nth-child(6n - 3):before {
-				background-color: #7C5EA5;
+				background-color: #7c5ea5da;
 			}
 
 			.tiles article:nth-child(6n - 2):before {
-				background-color: #EA560D;
+				background-color: #ea570dba;
 			}
 
 			.tiles article:nth-child(6n - 1):before {
-				background-color: #00ABA8;
+				background-color: #00aba8d4;
 			}
 
 			.tiles article:nth-child(6n):before {
-				background-color: #7C5EA5
-				;
+				background-color: #7c5ea5da;				
 			}
 
 		@media screen and (max-width: 1280px) {
 
 			.tiles article {
-				padding: 4em 3em 2em 3em ;
+				padding: 4em 3em 2em 3em;
 				height: 30vh;
 				max-height: 30em;
 				min-height: 20em;
@@ -3736,7 +3735,7 @@ input, select, textarea {
 	#footer .copyright {
 		font-size: 0.8em;
 		list-style: none;
-		padding-left: 0;
+		padding-left: 0.5;
 	}
 
 		#footer .copyright li {
