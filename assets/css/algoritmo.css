@@ -173,11 +173,11 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #00ABA8 !important;
+			color: #ffffff !important;
 		}
 
 		a:active {
-			color: #00ABA8 !important;
+			color: #f79463 !important;
 		}
 
 	strong, b {
@@ -2146,9 +2146,9 @@ input, select, textarea {
 		}
 
 		.icon.alt:before {
-			background-color: #0faaa84e;
+			background-color: #f79463;
 			border-radius: 100%;
-			color: #242943;
+			color: #ffffff;
 			display: inline-block;
 			height: 2em;
 			line-height: 2em;
@@ -2164,11 +2164,11 @@ input, select, textarea {
 	}
 
 	a.icon.alt:hover:before {
-		background-color: #00ABA8;
+		background-color: #EA560D;
 	}
 
 	a.icon.alt:active:before {
-		background-color: #00ABA8;
+		background-color: #EA560D;
 	}
 
 /* Image */
@@ -2951,7 +2951,7 @@ input, select, textarea {
 			-webkit-flex-direction: row;
 			-ms-flex-direction: row;
 			flex-direction: row;
-			background-color: #7c5ea5f1;
+			background-color: #EA560D;
 		}
 
 			.spotlights > section > .image {
@@ -3013,7 +3013,7 @@ input, select, textarea {
 				-webkit-flex-direction: row-reverse;
 				-ms-flex-direction: row-reverse;
 				flex-direction: row-reverse;
-				background-color: #7c5ea5f1;
+				background-color: #EA560D;
 			}
 
 				.spotlights > section:nth-child(2n) > .content {
@@ -3158,7 +3158,7 @@ input, select, textarea {
 				-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-				background-color: #7C5EA5;
+				background-color: #EA560D;
 				color: #000000;
 				display: inline-block;
 				line-height: 1.65em;
@@ -3167,7 +3167,7 @@ input, select, textarea {
 			}
 
 			#header .logo:hover strong {
-				background-color: #00ABA8;
+				background-color: #EA560D;
 			}
 
 			#header .logo:active strong {
