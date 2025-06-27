@@ -3380,26 +3380,28 @@ input, select, textarea {
 		}
 
 /* Banner */
-#banner .video-container {
-   display: flex;
-    top: 0;  
-	width: 50vw;  
-    height: 50vh;
-    overflow: hidden;
-    z-index: 0
-	; /* Il video sarà sotto il contenuto */
+#banner.major {
+  position: relative;
+ min-height: 100vh;
+height: auto;
+padding: 6em 0; 
+  overflow: hidden;
 }
 
-#banner .video-container video {
-    min-width: 50vw;
-    min-height: 50vh;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    object-fit: cover;
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
 }
 
+.video-container video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 	#banner {
 		-moz-align-items: center;
 		-webkit-align-items: center;
