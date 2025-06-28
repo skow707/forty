@@ -173,11 +173,11 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #ffffff !important;
+			color: #00ABA8 !important;
 		}
 
 		a:active {
-			color: #f79463 !important;
+			color: #6fc3df !important;
 		}
 
 	strong, b {
@@ -196,7 +196,7 @@ input, select, textarea {
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
 		font-weight: 600;
-		-height: 1.65;
+		line-height: 1.65;
 		margin: 0 0 1em 0;
 	}
 
@@ -2146,7 +2146,7 @@ input, select, textarea {
 		}
 
 		.icon.alt:before {
-			background-color: #f79463;
+			background-color: #84cbca;
 			border-radius: 100%;
 			color: #ffffff;
 			display: inline-block;
@@ -2164,11 +2164,11 @@ input, select, textarea {
 	}
 
 	a.icon.alt:hover:before {
-		background-color: #EA560D;
+		background-color: #00ABA8;
 	}
 
 	a.icon.alt:active:before {
-		background-color: #EA560D;
+		background-color: #00ABA8;
 	}
 
 /* Image */
@@ -2951,7 +2951,7 @@ input, select, textarea {
 			-webkit-flex-direction: row;
 			-ms-flex-direction: row;
 			flex-direction: row;
-			background-color: #EA560D;
+			background-color: #00ABA8;
 		}
 
 			.spotlights > section > .image {
@@ -3013,7 +3013,7 @@ input, select, textarea {
 				-webkit-flex-direction: row-reverse;
 				-ms-flex-direction: row-reverse;
 				flex-direction: row-reverse;
-				background-color: #EA560D;
+				background-color: #00ABA8;
 			}
 
 				.spotlights > section:nth-child(2n) > .content {
@@ -3158,7 +3158,7 @@ input, select, textarea {
 				-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-				background-color: #EA560D;
+				background-color: #53afad;
 				color: #000000;
 				display: inline-block;
 				line-height: 1.65em;
@@ -3167,7 +3167,7 @@ input, select, textarea {
 			}
 
 			#header .logo:hover strong {
-				background-color: #EA560D;
+				background-color: #4fb6b4;
 			}
 
 			#header .logo:active strong {
@@ -3282,7 +3282,7 @@ input, select, textarea {
 			}
 
 			#header.alt.style3 .logo strong {
-				background-color: #EA560D;
+				background-color: #00ABA8;
 				color: #ffffff;
 			}
 
@@ -3536,7 +3536,7 @@ padding: 6em 0;
 		}
 
 		#banner.style3:after {
-			background-color: #EA560D;
+			background-color: #00ABA8;
 		}
 
 		#banner.style4:after {
