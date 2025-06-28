@@ -80,13 +80,12 @@
         <!-- Two -->
         <section id="two" class="spotlights">
           <section>
-            <a href="generic.html" class="image">
-              <img
-                src="images/pic08.jpg"
-                alt=""
-                data-position="center center"
-              />
-            </a>
+           <a href="generic.html" class="image carousel">
+  <img src="images/mod3d.png" class="active" alt="immagine 1" />
+  <img src="images/code.png" alt="immagine 2" />
+  <img src="images/bucca.jpg" alt="immagine 3" />
+  <img src="images/unreal.png" alt="immagine 4" />
+</a>
             <div class="content">
               <div class="inner">
                 <!-- <header class="major">
@@ -121,7 +120,7 @@
           </section>
           <section>
             <a href="generic.html" class="image">
-              <img src="images/pic09.jpg" alt="" data-position="top center" />
+              <img src="images/aqw.jpg" alt="" data-position="top center" />
             </a>
             <div class="content">
               <div class="inner">
@@ -133,10 +132,7 @@
           Il piano di studi è arricchito anche da discipline trasversali che 
           espandono e completano l’esperienza formativa. Tra queste, il corso 
           di copywriting che contribuisce allo sviluppo di competenze di produzione
-           linguistica mirate e creative. La scrittura diventa così elemento
-            chiave per progettare contenuti persuasivi, costruire identità 
-            comunicative e valorizzare le opere attraverso parole che ritagliano
-             il loro spazio nei contesti digitali. Si affiancano insegnamenti 
+           linguistica mirate e creative. Si affiancano insegnamenti 
              dedicati all’arte contemporanea, alla metodologia progettuale della 
              comunicazione visiva e alla riflessione critica sull’uso delle 
              tecnologie nei processi culturali. Un insieme di contributi che 
@@ -212,5 +208,17 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <script>
+  document.querySelectorAll('.image.carousel').forEach(carousel => {
+    const images = carousel.querySelectorAll('img');
+    let current = 0;
+
+    setInterval(() => {
+      images[current].classList.remove('active');
+      current = (current + 1) % images.length;
+      images[current].classList.add('active');
+    }, 3000); // ogni 3 secondi
+  });
+</script>
   </body>
 </html>

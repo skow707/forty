@@ -2951,7 +2951,7 @@ input, select, textarea {
 			-webkit-flex-direction: row;
 			-ms-flex-direction: row;
 			flex-direction: row;
-			background-color: #EA560D;
+			background-color: #f79463;
 		}
 
 			.spotlights > section > .image {
@@ -3987,3 +3987,25 @@ padding: 6em 0;
 			opacity: 1;
 			visibility: visible;
 		}
+		.image.carousel {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.image.carousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  max-height: 500px;
+  max-width: 500px;
+}
+
+.image.carousel img.active {
+  opacity: 1;
+  position: relative;
+  z-index: 1;
+}
