@@ -3987,3 +3987,17 @@ padding: 6em 0;
 			opacity: 1;
 			visibility: visible;
 		}
+.videot3 {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.videot3 video {
+  width: 80%; /* o usa 70% se preferisci */
+  height: auto;
+  border-radius: 1em; /* bordi arrotondati per estetica */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3); /* ombra per profondità */
+  max-width: 100%;
+}
