@@ -173,11 +173,11 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #00ABA8 !important;
+			color: #8e79ab!important;
 		}
 
 		a:active {
-			color: #6fc3df !important;
+			color: #7C5EA5!important;
 		}
 
 	strong, b {
@@ -2146,7 +2146,7 @@ input, select, textarea {
 		}
 
 		.icon.alt:before {
-			background-color: #84cbca;
+			background-color: #8e79ab;
 			border-radius: 100%;
 			color: #ffffff;
 			display: inline-block;
@@ -2164,11 +2164,11 @@ input, select, textarea {
 	}
 
 	a.icon.alt:hover:before {
-		background-color: #00ABA8;
+		background-color: #7C5EA5;
 	}
 
 	a.icon.alt:active:before {
-		background-color: #00ABA8;
+		background-color: #7C5EA5;
 	}
 
 /* Image */
@@ -2951,7 +2951,7 @@ input, select, textarea {
 			-webkit-flex-direction: row;
 			-ms-flex-direction: row;
 			flex-direction: row;
-			background-color: #00ABA8;
+			background-color: #7c5ea5f1;
 		}
 
 			.spotlights > section > .image {
@@ -3013,7 +3013,7 @@ input, select, textarea {
 				-webkit-flex-direction: row-reverse;
 				-ms-flex-direction: row-reverse;
 				flex-direction: row-reverse;
-				background-color: #00ABA8;
+				background-color: #7c5ea5f1;
 			}
 
 				.spotlights > section:nth-child(2n) > .content {
@@ -3158,7 +3158,7 @@ input, select, textarea {
 				-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-				background-color: #53afad;
+				background-color: #7C5EA5;
 				color: #000000;
 				display: inline-block;
 				line-height: 1.65em;
@@ -3167,11 +3167,11 @@ input, select, textarea {
 			}
 
 			#header .logo:hover strong {
-				background-color: #4fb6b4;
+				background-color: #8e79ab;
 			}
 
 			#header .logo:active strong {
-				background-color: #00ABA8;
+				background-color: #8e79ab;
 			}
 
 		#header nav {
@@ -3231,7 +3231,7 @@ input, select, textarea {
 						-webkit-transition: opacity 0.2s ease-in-out;
 						-ms-transition: opacity 0.2s ease-in-out;
 						transition: opacity 0.2s ease-in-out;
-						background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='32' viewBox='0 0 24 32' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 2px%3B stroke: %2300ABA8%3B %7D%3C/style%3E%3Cline x1='0' y1='11' x2='24' y2='11' /%3E%3Cline x1='0' y1='21' x2='24' y2='21' /%3E%3Cline x1='0' y1='16' x2='24' y2='16' /%3E%3C/svg%3E");
+						background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='32' viewBox='0 0 24 32' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 2px%3B stroke: %238e79ab%3B %7D%3C/style%3E%3Cline x1='0' y1='11' x2='24' y2='11' /%3E%3Cline x1='0' y1='21' x2='24' y2='21' /%3E%3Cline x1='0' y1='16' x2='24' y2='16' /%3E%3C/svg%3E");
 						opacity: 0;
 						z-index: 1;
 					}
@@ -3282,7 +3282,7 @@ input, select, textarea {
 			}
 
 			#header.alt.style3 .logo strong {
-				background-color: #00ABA8;
+				background-color: #EA560D;
 				color: #ffffff;
 			}
 
@@ -3536,7 +3536,7 @@ padding: 6em 0;
 		}
 
 		#banner.style3:after {
-			background-color: #00ABA8;
+			background-color: #EA560D;
 		}
 
 		#banner.style4:after {
